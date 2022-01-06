@@ -1,0 +1,40 @@
+
+.breakpoint__medium-up{
+  .main-card{
+    display: grid;
+    grid-template-columns:  1fr 5.4fr;
+  }
+  .game-component{
+      cursor: default;
+      padding: 15px;
+      display: grid;
+       grid-template-columns:  6fr 1fr;
+       .score-component{
+        padding: 31%;
+       }
+    }
+}
+
+.breakpoint__small-down{
+
+  .main-card {  display: grid;
+    grid-template-rows: 0.51fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  .game-component{
+    cursor: default;
+    padding: 15px;
+  }
+  .score-component { grid-area: 1 / 1 / 2 / 2;  background-color: black;position: relative;}
+
+  
+
+}
+
+  
+
+  
+  
